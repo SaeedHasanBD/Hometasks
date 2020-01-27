@@ -7,4 +7,6 @@ Expected result: False"""
 set1= {1,2}
 set2= {2,3}
 set3= {2}
-set{}
+
+s=set3.issubset(set1) and set3.issubset(set2)
+print(s)
